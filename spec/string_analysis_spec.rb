@@ -45,7 +45,7 @@ describe String, "#unique_words" do
   it "should return an array of unique words" do
     a_string = "apple the apple brave cars daring a the question"
     unique_words = a_string.unique_words
-    unique_words.should eq ['a', 'apple', 'brave', 'cars', 'daring', 'the', 'question']
+    unique_words.should eq ['apple', 'the', 'brave', 'cars', 'daring', 'a', 'question']
   end
 
   it "should return an empty array with a string length of zero" do
