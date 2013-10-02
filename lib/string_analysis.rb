@@ -11,6 +11,9 @@ class String
     self.unique_words.length
   end
 
-  def word_frequencies(str)
+  def word_frequencies
+    frequency = Hash.new(0)
+    self.split(' ').each { |word| frequency[word.to_sym] += 1 }
+    frequency
   end
 end
