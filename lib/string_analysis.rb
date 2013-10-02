@@ -1,34 +1,27 @@
 class String
-	attr_accessor :word_count, :unique_words, :unique_word_count, :word_frequencies
 
-	# def initialize
-	# 	@word_count = word_count
-	# 	@unique_words = unique_words
-	# 	@unique_word_count = unique_word_count
-	# 	@word_frequencies = word_frequencies
-	# end
-
-	def word_count(user_phrase)
-		word_count = user_phrase.split(" ").size
+	def word_count
+		word_count = self.split(" ").length
 	end
 
-	def unique_words(user_phrase)
-		words = []
-		words = user_phrase.split(" ")
-		unique_words = words.uniq
+	def unique_words
+		words = self.split(" ").uniq
 	end
 
-	def unique_word_count(user_phrase)
-		unique_words_count = unique_words.size
+	def unique_word_count
+		unique_word_count = []
+		unique_word_count = self.uniq.length
 	end
 
-	def word_frequencies(user_phrase)
-		user_phrase.split(" ")
-		word_frequencies = 
-
+	def word_frequencies
+		words = self.split(" ")
+		word_frequencies = {}
+		words.each do |word|
+			word_frequencies[word.to_sym] ||= 0
+			word_frequencies[word.to_sym] += 1
+		end
+		return word_frequencies
 	end
-
-
 end
 
 # split into words
