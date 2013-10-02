@@ -9,8 +9,7 @@ class String
 	end
 
 	def unique_word_count
-		unique_word_count = []
-		unique_word_count = self.uniq.length
+		self.unique_words.length
 	end
 
 	def word_frequencies
