@@ -1,4 +1,4 @@
-require './lib/word_count'
+require './lib/string_analysis'
 
 puts "Enter a phrase"
 user_phrase = gets
