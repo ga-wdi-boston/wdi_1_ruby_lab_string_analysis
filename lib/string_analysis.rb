@@ -7,7 +7,8 @@ class String
     self.split(' ').uniq
   end
 
-  def unique_word_count(str)
+  def unique_word_count
+    self.unique_words.length
   end
 
   def word_frequencies(str)
