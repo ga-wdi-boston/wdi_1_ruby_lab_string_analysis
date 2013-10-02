@@ -3,7 +3,8 @@ class String
     self.split(' ').length
   end
 
-  def unique_words(str)
+  def unique_words
+    self.split(' ').uniq
   end
 
   def unique_word_count(str)
