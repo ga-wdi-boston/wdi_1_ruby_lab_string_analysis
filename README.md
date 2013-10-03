@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/enspencer/ga-string-analysis-homework/badge.png)](https://coveralls.io/r/enspencer/ga-string-analysis-homework)
+
 # String Analysis Homework
 
 The goal of this homework is to add four methods to the `String` class so we can do text analysis on a string. The methods are as follows: 
