@@ -5,15 +5,18 @@
 class String
 
 def word_count
+  # self.split(" ").count 
   split(" ").count
 end
 
 def unique_words
-split(" ").uniq
+  # self.split(" ").uniq
+  split(" ").uniq
 end
 
 def unique_word_count
-split(" ").uniq.count 
+  # self.unique_words.count
+  split(" ").uniq.count 
 end
 
 def word_frequencies
