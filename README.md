@@ -1,5 +1,7 @@
 # String Analysis Homework
 
+!https://coveralls.io/repos/brycelambert/ga-string-analysis-homework/badge.png(Coverage Status)!:https://coveralls.io/r/brycelambert/ga-string-analysis-homework
+
 The goal of this homework is to add four methods to the `String` class so we can do text analysis on a string. The methods are as follows: 
 
 - word_count
