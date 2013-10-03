@@ -25,8 +25,8 @@ end
 
 def word_frequencies(input_string)
 	words = Hash.new(0)
-	input_string.scan(/\w+/) do |w|
-  words[w] += 1
+	input_string.scan(/\w+/) do |key|
+  words[key] += 1
 end
 return words
 end

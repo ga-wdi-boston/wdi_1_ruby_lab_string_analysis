@@ -1,27 +1,4 @@
-# String Analysis Homework
 
-The goal of this homework is to add four methods to the `String` class so we can do text analysis on a string. The methods are as follows: 
-
-- word_count
-- unique_words
-- unique_word_count
-- word_frequencies
-
-### word_count
-
-Returns the number of words in a string. 
-
-### unique_words
-
-Returns an array of unique words present in the string.
-
-### unique_word_count
-
-Returns the number of unique words present in the string.
-
-### word_frequencies
-
-Returns a hash of the unique words and their frequencies present in the string. 
 
 ## Assignment
 
