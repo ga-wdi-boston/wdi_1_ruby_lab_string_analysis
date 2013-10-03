@@ -26,6 +26,12 @@ split(" ").each do |word|
   freq[word.to_sym] += 1
   end
   freq 
+# # dan's way of using regex
+#   freq = {}
+#   split(" ").scan(/\w+/) do |key|
+#     words[key] += 1
+#   end
+#   freq
 end
 
 end
