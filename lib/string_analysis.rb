@@ -7,9 +7,10 @@ end
 
 def word_frequencies
 	arr = self.split(" ")
+	arr.sort!
 	histogram = Hash.new(0)
 	arr.each do |word|
-		histogram[word.downcase] += 1
+		histogram[word.downcase.to_sym] += 1
 	end
 	return histogram
 end
@@ -17,7 +18,7 @@ end
 def unique_words
 	hash = self.word_frequencies
 	arr = []
-	hash.each_key { |key| arr << key }
+	hash.each_key { |key| arr << key.to_s }
 	return arr
 end
 
