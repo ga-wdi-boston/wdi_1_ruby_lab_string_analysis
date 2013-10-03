@@ -1,11 +1,11 @@
 class String
 
 	def word_count
-		word_count = self.split(" ").length
+		self.split(" ").length
 	end
 
 	def unique_words
-		words = self.split(" ").uniq
+		self.split(" ").uniq
 	end
 
 	def unique_word_count
