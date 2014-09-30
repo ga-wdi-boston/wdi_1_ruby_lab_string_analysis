@@ -36,6 +36,7 @@ describe String, "#word_count" do
     the_word_count.should eq 3
   end
 end
+#---------------------------------------------------------------------------
 
 describe String, "#unique_words" do
   it "should have a method called unique_words" do
@@ -54,6 +55,7 @@ describe String, "#unique_words" do
     unique_words.should eq []
   end
 end
+#--------------------------------------------------------------------------
 
 describe String, "#unique_word_count" do
   it "should have a method called unique_word_count" do
@@ -70,6 +72,12 @@ describe String, "#unique_word_count" do
     a_string = ""
     the_unique_word_count = a_string.unique_word_count
     the_unique_word_count.should eq 0
+  end
+  #we added this test after satisfying the above 3
+  it "should return the number of unique words in a string" do
+    a_string = "buffalo buffalo buffalo"
+    the_unique_word_count = a_string.unique_word_count
+    the_unique_word_count.should eq 1
   end
 end
 

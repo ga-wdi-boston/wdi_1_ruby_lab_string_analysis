@@ -1,0 +1,42 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Collin/wdi/wdi_2_ruby_hw_rspec_string_analysis/lib/string_analysis.rb": [
+        1,
+        null,
+        1,
+        null,
+        5,
+        5,
+        null,
+        null,
+        1,
+        null,
+        2,
+        2,
+        null,
+        null,
+        null,
+        1,
+        null,
+        3,
+        3,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        5,
+        1,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1412089279
+  }
+}
