@@ -1,5 +1,5 @@
-require_relative 'spec_helper'
-require 'string_analysis'
+require 'spec_helper'
+require_relative '../lib/string_analysis'
 
 describe String, "#word_count" do
   it "should have a method called word_count" do
