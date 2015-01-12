@@ -1,8 +1,8 @@
-[![Coverage Status](https://coveralls.io/repos/tibbon/ga-string-analysis-homework/badge.png)](https://coveralls.io/r/tibbon/ga-string-analysis-homework)
+![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
-# String Analysis Homework
+# Ruby Lab String Analysis
 
-The goal of this homework is to add four methods to the `String` class so we can do text analysis on a string. The methods are as follows: 
+The goal of this homework is to add four methods to the `String` class so we can do text analysis on a string. The methods are as follows:
 
 - word_count
 - unique_words
@@ -11,7 +11,7 @@ The goal of this homework is to add four methods to the `String` class so we can
 
 ### word_count
 
-Returns the number of words in a string. 
+Returns the number of words in a string.
 
 ### unique_words
 
@@ -23,14 +23,12 @@ Returns the number of unique words present in the string.
 
 ### word_frequencies
 
-Returns a hash of the unique words and their frequencies present in the string. 
+Returns a hash of the unique words and their frequencies present in the string. We haven't used hashes much yet, so this will be tricky
 
 ## Assignment
 
-Create these four methods on the `String` class. Run `rspec spec` to ensure that your methods properly return results. Fork/Clone and Pull Request when you're finished with the assignment. 
+Fork and clone this assignment. When you're finished, make a pull request.
 
-You should edit the `lib/string_analysis.rb` file to make the tests pass. 
+Four empty methods have been created for you in `lib/string_analysis.rb`. These are *instance methods* and allow us to call the methods directly on an instance of a string, just like `'foo'.reverse` we can call `'foo'.word_count`
 
-If you should encounter bugs, use Github Issues to file a bug report, and then I can fix the bug. 
-
-You'll now be able to call "foo bar".word_frequencies with these. On Friday, we'll see about how we can make our own Gem that will use these and other methods that we create. 
+You should edit the `lib/string_analysis.rb` file to make the tests pass. Run `rspec spec` to ensure that your methods properly return results.
