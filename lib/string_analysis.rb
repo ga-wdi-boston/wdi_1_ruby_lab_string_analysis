@@ -16,8 +16,14 @@ class String
   end
 
   def word_frequencies
-    array = self.split(" ")
-    array.each_with_object(Hash.new(0)) { |word, counts| counts[word] += 1}
+    num_words = {}
+    original_array = self.split(" ")
+    array = self.split(" ").uniq
+    array.each do |x|
+      num_words[x.to_sym] = original_array.count(x)
+    end
+    return num_words
+
   end
 end
 
