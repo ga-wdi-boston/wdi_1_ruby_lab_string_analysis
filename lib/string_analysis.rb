@@ -1,3 +1,4 @@
+require 'byebug'
 # Here we are opening up the String class and adding methods to it
 class String
   def word_count
@@ -10,5 +11,6 @@ class String
   end
 
   def word_frequencies
+    binding.byebug
   end
 end
